@@ -1,0 +1,28 @@
+{
+  "name": "react6-2-server",
+  "version": "1.0.0",
+  "description": "react6-2 server",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teejay74/react6-2-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^1.0.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6"
+  },
+  "bugs": {
+    "url": "https://github.com/teejay74/react6-2-server/issues"
+  },
+  "homepage": "https://github.com/teejay74/react6-2-server#readme"
+}
